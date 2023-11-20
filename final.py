@@ -8,4 +8,4 @@ df = pd.read_csv('developments.csv', encoding='latin1')
 
 print(df) 
 
-st.write(df)
+st.dataframe(df)
